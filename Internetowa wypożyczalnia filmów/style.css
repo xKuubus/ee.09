@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#left-banner{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+
+#right-banner{
+    background-color: #29434E;
+    color: white;
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+
+#list-1{
+    clear: both;
+    background-color: #B0BEC5;
+    height: 320px;
+    overflow: scroll;
+}
+
+#list-2{
+    background-color: #B0BEC5;
+    height: 320px;
+    overflow: scroll;
+}
+
+#footer{
+    background-color: #29434E;
+    color: white;
+}
+
+#film{
+    margin: 5px;
+    padding: 5px;
+    width: 226px;
+    height: 280px;
+    float: left;
+}
+
+h3{
+    background-color: #546E7A;
+    color: white;
+    margin: 0px;
+}
+
+h4{
+    text-align: center;
+    margin: 0px;
+}

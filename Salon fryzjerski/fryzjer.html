@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="styl.css"> 
+    <title>Usługi fryzjerskie</title>
+</head>
+<body>
+    <div class="lewo">
+        <a href="index.html"><h1>SALON FRYZJERSKI</h1></a>
+        <img src="obraz2.jpg" alt="Czesanie">
+    </div>
+    <div class="lewo2">
+        <h3>Dziś promocja na strzyżenie włosów</h3>
+        <input type="radio" name="Krótkie" id="a">Krótkie <br />
+        <input type="radio" name="Krótkie" id="b">Średnie <br />
+        <input type="radio" name="Krótkie" id="c">Półdługie <br />
+        <input type="radio" name="Krótkie" id="d">Długie <br />
+        <button onclick="fryzjer()">Odkryj promocje</button>
+        <p id="result"></p>
+    </div>
+    <div class="prawo">
+        <h2>MENU</h2>
+    </div>
+    <div class="prawo2">
+        <ol>
+            <li><a href="fryzjer.html">Strzyżenie</a></li>
+                <ul>
+                    <li>Krótkie</li>
+                    <li>Średnie</li>
+                    <li>Półdługie</li>
+                    <li>Długie</li>
+                </ul>
+            <li>Czesanie</li>
+            <li>Koloryzacja</li>
+        </ol>
+    </div>
+    <div class="prawo3">
+        <img src="obraz1.jpg" alt="fryzjer">
+    </div>
+    <div class="stopa">
+        <p>Autor: Pesel Zdający</p>
+    </div>
+    <script>
+        function fryzjer (){
+        var cena = 0;
+        if(document.getElementById("a").checked){
+            cena = 25;
+        }
+        if(document.getElementById("b").checked){
+            cena = 30;
+        }
+        if(document.getElementById("c").checked){
+            cena = 40;
+        }
+        if(document.getElementById("d").checked){
+            cena = 50;
+        }
+        if(cena != 0){
+        document.getElementById("result").innerHTML = "Cena strzyżenia:" + cena
+        }
+    }
+    </script>
+</body>
+</html>

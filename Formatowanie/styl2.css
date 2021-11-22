@@ -1,0 +1,65 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#panel1, #panel2{
+    float: left;
+    background-color: #A26475;
+    color: white;
+    width: 30%;
+    height: 300px;
+}
+
+#panel3{
+    float: left;
+    background-color: #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+}
+
+#main{
+    clear: both;
+    background-color: #F0EAE2;
+    padding: 50px;
+}
+
+#footer{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, tr, th, td{
+    border: 2px solid #69293A;
+    padding: 7px
+}
+
+ul{
+    list-style: square;
+}
+
+.btn1{
+    background-color: red;
+}
+
+.btn2{
+    background-color: green;
+}
+
+.btn3{
+    background-color: blue;
+}

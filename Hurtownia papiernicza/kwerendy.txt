@@ -1,0 +1,4 @@
+1. SELECT nazwa, cena FROM towary LIMIT 4;
+2. SELECT cena FROM towary WHERE nazwa="cyrkiel";
+3. SELECT 'nazwa' FROM Towary;
+4. SELECT COUNT(promocja) AS ilość FROM towary;
